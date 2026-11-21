@@ -1,0 +1,9 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#374151"/>
+  <rect x="200" y="150" width="800" height="300" fill="#4B5563" rx="20"/>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="36" fill="#E5E7EB" text-anchor="middle">豪华汽车展示</text>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">图片加载中...</text>
+  <circle cx="600" cy="400" r="20" fill="none" stroke="#3B82F6" stroke-width="4">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 400" to="360 600 400" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

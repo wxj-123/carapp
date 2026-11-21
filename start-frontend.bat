@@ -1,0 +1,13 @@
+@echo off
+echo Starting frontend servers...
+
+echo Starting user frontend on port 5174...
+start "User Frontend" powershell -NoExit -Command "npx vite --port 5174"
+
+echo Starting admin frontend on port 5175...
+start "Admin Frontend" powershell -NoExit -Command "npx vite --config admin-vite.config.ts"
+
+echo Both frontends are starting in new windows...
+echo User Frontend: http://localhost:5174
+echo Admin Frontend: http://localhost:5175
+pause
